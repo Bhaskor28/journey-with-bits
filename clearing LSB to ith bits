@@ -1,0 +1,15 @@
+void s6(){
+	int x=29 ;//00011101 we want to clear LSB to ith bit
+		// &   11110000 need ?
+	int mask=(1<<4)-1 ;// 0 based indexed and i=4
+	// mask=10000=16
+
+	mask=~mask;
+	// mask=11110000
+	cout<<mask<<endl;
+	int ans=x&mask;//<<enld;
+		//	10000
+	cout<<ans<<endl;
+
+
+}
