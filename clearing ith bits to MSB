@@ -1,0 +1,9 @@
+void s7(){
+	int x=215; //(11010111) want to clear 4th bit to
+	//MSB 	    & 00001111 need
+	int mask=(1<<4)-1;
+	int ans=x&mask;
+	// ans=7(0111)
+	cout<<ans<<endl;
+
+}
