@@ -1,0 +1,6 @@
+int lastsetbit(int x){
+
+	return log2(x & -x)+1;
+
+
+}
