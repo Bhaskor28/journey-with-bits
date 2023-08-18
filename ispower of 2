@@ -1,0 +1,5 @@
+bool ispowerof2(int x){
+
+
+	return (x && !(x &(x-1)));// x is used for extra caring if the number is 0
+}
